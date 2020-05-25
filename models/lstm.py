@@ -10,9 +10,6 @@ from lasagne.layers import Conv1DLayer, DimshuffleLayer, LSTMLayer, SliceLayer
 # importing required functions from their Python files
 from cnn import build_cnn
 
-
-
-
 def build_convpool_lstm(input_vars, nb_classes, grad_clip=110, imsize=32, n_colors=3, n_timewin=7):
     
     convnets = []
