@@ -14,6 +14,14 @@ First, we transform EEG activities into a sequence of topology-preserving multi-
 ## Keynote
 These implementations have not been checked by original authors, only reimplemented from the paper description and open source code from original authors.
 
+## Installations / Dependencies
+In order to run this code you need to install the following modules:
+
+1. [Numpy and Scipy](http://www.scipy.org/install.html)
+2. [Scikit-Learn](http://scikit-learn.org/stable/install.html)
+3. [Theano](http://deeplearning.net/software/theano/install.html)
+4. [Lasagne](http://lasagne.readthedocs.org/en/latest/user/installation.html)
+
 ## Data 
 Detailsof procedures for data recording and cleaning are reported in the author's previous publication [Bashivanet al., 2014](https://www.researchgate.net/publication/266621270_Spectrotemporal_dynamics_of_the_EEG_during_working_memory_encoding_and_maintenance_predicts_individual_behavioral_capacity)
 We took data (which was basically a set of points out of which we had to generate images on our own) that the author provided in this paper. 
