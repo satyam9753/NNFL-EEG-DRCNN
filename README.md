@@ -10,7 +10,7 @@ First, we transform EEG activities into a sequence of topology-preserving multi-
 ![](images/transform.png)
 (FIG.)Topology-preserving and non-topology-preserving projections of electrode locations.  A)2-D projection of electrode locations using non-topology-preserving simple orthographic projection.B) Location of electrodes in the original 3-D space.  C) 2-D projection of electrode locations usingtopology-preserving azimuthal equidistant projection.
 #
-
+---
 ## Keynote
 These implementations have not been checked by original authors, only reimplemented from the paper description and open source code from original authors.
 
@@ -29,11 +29,11 @@ We took data (which was basically a set of points out of which we had to generat
 
 ## Instructions to run
 In your command prompt
-'''
+'
  git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git
  cd colab
  jupyter notebook
-'''
+'
 Then adjust the file path of the *'data' folder*
 
 **Alternative**
