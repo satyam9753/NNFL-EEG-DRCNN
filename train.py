@@ -167,21 +167,21 @@ def train(images, labels, fold, model_type, batch_size=32, num_epochs=5):
     return av_test_acc
 
 
-
+# <----------EXECUTION STARTS---------->
 if __name__ == '__main__':
     
     from utilities.utils import reformatInput
 
     print('Loading data...')
-    locs = scipy.io.loadmat('../Sample data/Neuroscan_locs_orig.mat')
+    locs = scipy.io.loadmat('/data/Neuroscan_locs_orig.mat')
     locs_3d = locs['A']
     locs_2d = []
 
     for e in locs_3d:
         locs_2d.append(azim_proj(e))
 
-    feats = scipy.io.loadmat('../Sample data/FeatureMat_timeWin.mat')['features']
-    subj_nums = np.squeeze(scipy.io.loadmat('../Sample data/trials_subNums.mat')['subjectNum'])
+    feats = scipy.io.loadmat('/data/FeatureMat_timeWin.mat')['features']
+    subj_nums = np.squeeze(scipy.io.loadmat('/data/trials_subNums.mat')['subjectNum'])
     fold_pairs = []
 
     for i in np.unique(subj_nums):
