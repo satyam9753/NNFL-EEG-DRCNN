@@ -6,3 +6,15 @@ First, we transform EEG activities into a sequence of topology-preserving multi-
 
 ![](images/train.png)
 #
+![](images/transform.png)
+(FIG.)Topology-preserving and non-topology-preserving projections of electrode locations.  A)2-D projection of electrode locations using non-topology-preserving simple orthographic projection.B) Location of electrodes in the original 3-D space.  C) 2-D projection of electrode locations usingtopology-preserving azimuthal equidistant projection.
+#
+
+## Learning Models
+* First try Convolution Neural Net (CNN)
+* New is a 3D convolutional NN (CNN3D) in the frequency domain
+* Then try Long-Short Term Memory Recurrent Neural Net (LSTM)
+* Finally do, Mix-LSTM / 1D-Conv
+
+![](images/model_architecture.png)
+# 
