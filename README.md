@@ -10,7 +10,7 @@ First, we transform EEG activities into a sequence of topology-preserving multi-
 ## Data Visualisation
 
 ![](images/transform.png)
-(FIG.)Topology-preserving and non-topology-preserving projections of electrode locations.  A)2-D projection of electrode locations using non-topology-preserving simple orthographic projection.B) Location of electrodes in the original 3-D space.  C) 2-D projection of electrode locations usingtopology-preserving azimuthal equidistant projection.
+**(FIG.)** Topology-preserving and non-topology-preserving projections of electrode locations.  A)2-D projection of electrode locations using non-topology-preserving simple orthographic projection.B) Location of electrodes in the original 3-D space.  C) 2-D projection of electrode locations usingtopology-preserving azimuthal equidistant projection.
 #
 ---
 ## Keynote
@@ -27,7 +27,7 @@ In order to run this code you need to install the following modules:
 Also run : *pip3 install -r requirements.txt*
 
 ## Data 
-Detailsof procedures for data recording and cleaning are reported in the author's previous publication [Bashivanet al., 2014](https://www.researchgate.net/publication/266621270_Spectrotemporal_dynamics_of_the_EEG_during_working_memory_encoding_and_maintenance_predicts_individual_behavioral_capacity)
+Details of procedures for data recording and cleaning are reported in the author's previous publication [Bashivanet al., 2014](https://www.researchgate.net/publication/266621270_Spectrotemporal_dynamics_of_the_EEG_during_working_memory_encoding_and_maintenance_predicts_individual_behavioral_capacity)
 We took data (which was basically a set of points out of which we had to generate images on our own) that the author provided in this paper. 
 # 
 ## Working
