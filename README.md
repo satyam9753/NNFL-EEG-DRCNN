@@ -14,6 +14,9 @@ First, we transform EEG activities into a sequence of topology-preserving multi-
 ## Keynote
 These implementations have not been checked by original authors, only reimplemented from the paper description and open source code from original authors.
 
+## Data 
+Detailsof procedures for data recording and cleaning are reported in the author's previous publication [Bashivanet al., 2014](https://www.researchgate.net/publication/266621270_Spectrotemporal_dynamics_of_the_EEG_during_working_memory_encoding_and_maintenance_predicts_individual_behavioral_capacity)
+
 ## Learning Models
 * First try Convolution Neural Net (CNN)
 * New is a 3D convolutional NN (CNN3D) in the frequency domain
