@@ -39,6 +39,8 @@ In your command prompt
 Then adjust the file path of the *'data' folder*
 
 **Alternative**
+
+git clone https://github.com/akashpalrecha/Lookahead.git
  git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git
  
  python3 train.py
