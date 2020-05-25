@@ -16,6 +16,7 @@ These implementations have not been checked by original authors, only reimplemen
 
 ## Data 
 Detailsof procedures for data recording and cleaning are reported in the author's previous publication [Bashivanet al., 2014](https://www.researchgate.net/publication/266621270_Spectrotemporal_dynamics_of_the_EEG_during_working_memory_encoding_and_maintenance_predicts_individual_behavioral_capacity)
+We took data (which was basically a set of points out of which we had to generate images on our own) that the author provided in this paper. 
 
 ## Learning Models
 * First try Convolution Neural Net (CNN)
@@ -26,6 +27,19 @@ Detailsof procedures for data recording and cleaning are reported in the author'
 ![](images/model_architecture.png)
 # 
 
+## Instructions to run
+In your command prompt
+
+> git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git
+> cd colab
+> jupyter notebook
+
+Then adjust the file path of the *'data' folder*
+
+**Alternative**
+> git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git
+> python3 train.py
+# 
 ## Results
 ![](images/result.png)
 
