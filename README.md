@@ -24,7 +24,7 @@ These implementations have not been checked by original authors, only reimplemen
 # 
 
 ## Results
-
+![](images/result.png)
 
 ## Reference
 Bashivan, et al. "Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks." International conference on learning representations (2016).
