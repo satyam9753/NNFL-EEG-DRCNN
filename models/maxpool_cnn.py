@@ -13,9 +13,6 @@ from lasagne.layers import Conv1DLayer, DimshuffleLayer
 # importing required functions from their Python files
 from cnn import build_cnn
 
-
-
-
 def build_convpool_max(input_vars, nb_classes, imsize=32, n_colors=3, n_timewin=7):
 
     convnets = []
