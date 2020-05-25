@@ -2,8 +2,6 @@ import sys
 import numpy as np 
 np.seed(111)  # fixing seed value as '111'
 
-
-
 import lasagne
 from lasagne.layers import Conv2DLayer, MaxPool2DLayer, InputLayer
 
