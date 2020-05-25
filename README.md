@@ -31,9 +31,11 @@ We took data (which was basically a set of points out of which we had to generat
 In your command prompt
 
  'git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git'
+ 
  cd colab
+ 
  jupyter notebook
-'
+
 Then adjust the file path of the *'data' folder*
 
 **Alternative**
