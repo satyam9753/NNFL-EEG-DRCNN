@@ -11,6 +11,9 @@ First, we transform EEG activities into a sequence of topology-preserving multi-
 (FIG.)Topology-preserving and non-topology-preserving projections of electrode locations.  A)2-D projection of electrode locations using non-topology-preserving simple orthographic projection.B) Location of electrodes in the original 3-D space.  C) 2-D projection of electrode locations usingtopology-preserving azimuthal equidistant projection.
 #
 
+## Keynote
+These implementations have not been checked by original authors, only reimplemented from the paper description and open source code from original authors.
+
 ## Learning Models
 * First try Convolution Neural Net (CNN)
 * New is a 3D convolutional NN (CNN3D) in the frequency domain
@@ -19,3 +22,11 @@ First, we transform EEG activities into a sequence of topology-preserving multi-
 
 ![](images/model_architecture.png)
 # 
+
+## Results
+
+
+## Reference
+Bashivan, et al. "Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks." International conference on learning representations (2016).
+
+http://arxiv.org/abs/1511.06448
