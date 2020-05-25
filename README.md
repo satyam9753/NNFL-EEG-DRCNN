@@ -22,6 +22,8 @@ In order to run this code you need to install the following modules:
 3. [Theano](http://deeplearning.net/software/theano/install.html)
 4. [Lasagne](http://lasagne.readthedocs.org/en/latest/user/installation.html)
 
+Also run : *pip3 install -r requirements.txt*
+
 ## Data 
 Detailsof procedures for data recording and cleaning are reported in the author's previous publication [Bashivanet al., 2014](https://www.researchgate.net/publication/266621270_Spectrotemporal_dynamics_of_the_EEG_during_working_memory_encoding_and_maintenance_predicts_individual_behavioral_capacity)
 We took data (which was basically a set of points out of which we had to generate images on our own) that the author provided in this paper. 
