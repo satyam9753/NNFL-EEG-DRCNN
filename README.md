@@ -30,7 +30,7 @@ We took data (which was basically a set of points out of which we had to generat
 ## Instructions to run
 In your command prompt
 
- 'git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git'
+ git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git
  
  cd colab
  
@@ -40,6 +40,7 @@ Then adjust the file path of the *'data' folder*
 
 **Alternative**
  git clone https://github.com/satyam9753/NNFL-EEG-DRCNN.git
+ 
  python3 train.py
 # 
 ## Results
